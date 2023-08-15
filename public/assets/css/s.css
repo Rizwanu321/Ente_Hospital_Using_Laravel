@@ -1,0 +1,26 @@
+.page-tittle .paging {
+    display: block;
+    float: right;
+    padding: 5px 5px;
+    margin-top: 16px;
+}
+
+.inner-page-banner .paging li {
+    float: left;
+    list-style-type: none;
+    border-right: 1px solid #ff6ba6;
+    line-height: 0;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.inner-page-banner .paging li a {
+    color: #fff;
+    font-size: 12px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+}
+
+.inner-page-banner .paging li:last-child {
+    border: none;
+}

@@ -1,0 +1,34 @@
+ <div class="section">
+        <!-- container -->
+        <div class="container">
+            <!-- row -->
+            <div class="row">
+ <form class="form-horizontal" method="post" action="{{ URL::to('doctorlogin') }}" id="login_user">
+                            @csrf                            <ul class="nav nav-pills">
+                                <li>
+                                    <label>Email/Mobile Number</label>
+                                    <input type="text" id="emailid" name="emailid" rel="tooltip" value="" title="Email can contain only letters, numbers, periods (.), @, hyphens (-) and underscores (_)."> </li>
+                                <li>
+                                    <label>Password</label>
+                                    <input type="password" id="password" name="password" rel="tooltip" value="" title=" Please enter your password. Minimum 8 characters,case sensitive."> </li>
+                            <li>
+                                    <button type="submit" class="btn btn-danger login-form-head">Login</button>
+                                </li>
+                                <a href="donors/forgotpassword.html" class="forgot">Forgot password?</a>
+                                <!-- @if(Session::has('msg'))
+                                <div class="alert alert-danger">
+                                    <strong>{{ Session::get('msg') }}</strong>
+                                </div>
+                                @endif -->
+                            </ul>
+                        </form>
+                <!-- section title -->
+             
+                <!-- /section title -->
+
+                <!-- Products tab & slick -->
+              
+            </div>
+            <!-- /container -->
+        </div>
+    </div>

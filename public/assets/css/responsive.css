@@ -1,0 +1,175 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media only screen and (max-width: 1400px) {}
+
+@media only screen and (min-width: 1201px) and (max-width: 1400px) {}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) and (orientation: landscape) {}
+
+@media only screen and (max-width: 768px) and (orientation: landscape) {}
+
+/* iPads (portrai) ----------- */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {}
+
+/* iPads (portrait and landscape) ----------- */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {}
+
+@media screen and (min-width: 768px) {
+    .nav_body:before {
+        background: url(assets/images/gghk.png);
+        content: "";
+        display: block;
+        position: absolute;
+        left: 0;
+        top: -7px;
+        width: 126px;
+        height: 65px;
+    }
+    .help_line {
+        top: 17px;
+    }
+    .filter_doctor {
+        margin-bottom: 40px;
+    }
+    .filter_doctor .form-group {
+        margin-bottom: 0px;
+    }
+}
+
+@media only screen and (max-width: 996px) and (orientation: landscape) {}
+
+@media only screen and (max-width: 996px) {}
+
+/* Desktops, Large Screen and laptops ----------- */
+
+@media only screen and (max-width: 790px) {
+    .phone_wrap {
+        margin-top: 0;
+        margin-bottom: 18px;
+    }
+    .nav-container {
+        background: #eee
+    }
+    .nav-menu {
+        float: left;
+        width: 100%;
+    }
+    .nav-menu .menu-item>a {
+        padding: 10px;
+        color: #000;
+    }
+    .part-head {}
+    .fl_news .nav-toggle {
+        position: absolute;
+        right: 10px;
+    }
+    .head_shadow {
+        position: inherit !important;
+    }
+    .part-head .header_solo {
+        z-index: 0
+    }
+    .ms_col .img_col {
+        height: 160px;
+    }
+    .gallery-col ul li {
+        width: 48%;
+    }
+    .inner_page .txt_hd .intrest_rate {
+        position: inherit;
+        float: right;
+        margin-top: 15px;
+        clear: top
+    }
+    .inner_page .ul_department li {
+        width: 45%
+    }
+    .inner_page .doctor_wrap li {
+        width: 45%;
+        margin: 5px;
+    }
+    .hd_a {
+        font-size: 16px;
+    }
+    .department .ul_dprmt {
+        text-align: center
+    }
+    .department .ul_dprmt li {
+        float: none;
+        display: inline-block
+    }
+    .news_part .news_date {
+        height: 30px;
+        font-size: 14px;
+    }
+    .inner-page-banner {
+        background-size: 100% 100%;
+    }
+    .inner-page-banner .page-tittle h3 {
+        font-size: 24px;
+    }
+    .news_part .l_newsbody li {
+        width: 100%
+    }
+    .txt_b span {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 570px) and (orientation: landscape) {}
+
+@media only screen and (min-width: 320px) and (max-width: 570px) and (orientation: portrait) {}
+
+/* iPhone 4 & 5 (portrait & landscape)----------- */
+
+@media only screen and (min-width: 570px) and (max-width: 750px) {}
+
+@media only screen and (min-width: 320px) and (max-width: 570px) {}
+
+/*@media only screen and (max-width : 480px) {
+ 
+		
+}*/
+
+@media screen and (max-width: 460px) {
+    #bank_logo img {
+        width: 100%
+    }
+    .fl_news .fl_news_lft {
+        display: none
+    }
+    #welcome_txt h1 {
+        font-size: 100%;
+    }
+    .kalyr_phone {
+        position: inherit;
+        font-size: 13px;
+    }
+    .phone_wrap {
+        text-align: center
+    }
+    .ms_col .img_col,
+    .ms_col {
+        height: auto;
+    }
+    .gallery-col ul li,
+    .inner_page .ul_department li,
+    .hospial_logo img {
+        width: 100%;
+    }
+    .inner_page .doctor_wrap li {
+        width: 100%;
+        margin: 5px;
+    }
+    .fl_news_rgt {
+        width: 100%
+    }
+    .help_line {
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 760px) {}
